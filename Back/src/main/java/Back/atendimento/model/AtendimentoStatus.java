@@ -1,9 +1,8 @@
-package Back.model.entity.atendimento;
+package Back.atendimento.model;
 
 public enum AtendimentoStatus {
 
     AGENDAMENTO,
     REALIZADO,
-    CANCELADO,
     CONCLUIDO;
 }

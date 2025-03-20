@@ -1,9 +1,11 @@
-package Back.controller;
+package Back.atendimento.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/clientes")
-public class ClientesController {
+@RequestMapping("/antendimentos")
+public class AtendomentosController {
+
+    
 }
