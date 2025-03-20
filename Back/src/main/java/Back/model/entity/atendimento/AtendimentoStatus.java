@@ -1,4 +1,4 @@
-package Back.model.atendimento;
+package Back.model.entity.atendimento;
 
 public enum AtendimentoStatus {
 

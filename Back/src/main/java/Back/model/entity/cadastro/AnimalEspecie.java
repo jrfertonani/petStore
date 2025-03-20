@@ -1,4 +1,4 @@
-package Back.model.cadastro;
+package Back.model.entity.cadastro;
 
 public enum AnimalEspecie {
 

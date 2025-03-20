@@ -1,6 +1,6 @@
 package Back.repository;
 
-import Back.model.cadastro.Cadastros;
+import Back.model.entity.cadastro.Cadastros;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

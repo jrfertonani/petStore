@@ -1,4 +1,4 @@
-package Back.model.cadastro;
+package Back.model.entity.cadastro;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -6,9 +6,9 @@ import lombok.Data;
 import lombok.Setter;
 
 @Entity
-@Table(name = "tab_produtos_servico")
+@Table(name = "tab_cadastro")
 @Data
-public class ProdutosServicos {
+public class Cadastros {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +18,10 @@ public class ProdutosServicos {
     @Column(length = 50, nullable = false)
     private String nome;
 
-    private Double valor;
-    private boolean servico;
+    @Embedded
+    private Perfil perfil;
+    @Embedded
+    private Enderecos endereco;
+
 
 }

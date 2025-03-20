@@ -1,4 +1,4 @@
-package Back.model.cadastro;
+package Back.model.entity.cadastro;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "tab_animais")
 @Data
-public class Animais {
+public class AnimaisEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

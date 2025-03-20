@@ -1,4 +1,4 @@
-package Back.model.cadastro;
+package Back.model.entity.cadastro;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Embedded;
