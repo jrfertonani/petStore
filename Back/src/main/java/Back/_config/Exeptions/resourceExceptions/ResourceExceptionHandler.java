@@ -2,8 +2,7 @@ package Back._config.Exeptions.resourceExceptions;
 
 
 
-
-import back._config.Exeptions.serviceExceptions.DataIntegrityViolationException;
+import Back._config.Exeptions.serviceExceptions.DataIntegrityViolationException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
