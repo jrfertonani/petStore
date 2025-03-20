@@ -1,4 +1,4 @@
-package Back.model.DTO;
+package Back.model.DTO.animaisDTO;
 
 import lombok.Data;
 

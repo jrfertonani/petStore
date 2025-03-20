@@ -1,7 +1,7 @@
 package Back.model.entity.atendimento;
 
 import Back.model.entity.cadastro.AnimaisEntity;
-import Back.model.entity.cadastro.Cadastros;
+import Back.model.entity.cadastro.CadastrosEntity;
 import Back.model.entity.cadastro.ProdutosServicos;
 import lombok.Data;
 
@@ -18,7 +18,7 @@ public class Atendimentos {
     private LocalDate date;
     private LocalTime hora;
 
-    private Cadastros solicitante;
+    private CadastrosEntity solicitante;
     private ProdutosServicos servico;
     private AnimaisEntity paciente;
     private Double valor;
