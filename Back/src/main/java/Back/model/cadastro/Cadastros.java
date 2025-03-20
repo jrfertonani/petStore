@@ -14,9 +14,14 @@ public class Cadastros {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Setter(AccessLevel.NONE)
     private Integer id;
+
+    @Column(length = 50, nullable = false)
     private String nome;
+
+    @Embedded
     private Perfil perfil;
+    @Embedded
     private Enderecos endereco;
-    
+
 
 }

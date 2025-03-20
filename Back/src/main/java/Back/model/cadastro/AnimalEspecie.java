@@ -1,6 +1,6 @@
 package Back.model.cadastro;
 
-public enum Especies {
+public enum AnimalEspecie {
 
     GATO,
     CACHORRO,
