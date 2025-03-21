@@ -13,8 +13,8 @@ public class SwaggerConfiguration {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info() // Usando io.swagger.v3.oas.models.info.Info
-                        .title("Gestão de produtos")
-                        .description("API responsável pela gestão de produtos")
+                        .title("Gestão de petShop")
+                        .description("API responsável pela gestão de um petShop")
                         .version("1.0.0"));
     }
 

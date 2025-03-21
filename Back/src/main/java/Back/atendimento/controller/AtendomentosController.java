@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/antendimentos")
 public class AtendomentosController {
 
-    
+
 }
