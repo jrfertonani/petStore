@@ -1,6 +1,6 @@
-package Back.model.DTO.animaisDTO;
+package Back.cadastro.model.DTO.animaisDTO;
 
-import Back.model.entity.cadastro.AnimalEspecie;
+import Back.cadastro.model.entity.cadastro.AnimalEspecie;
 import lombok.Data;
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package Back.service;
+package Back.cadastro.service;
 
 import org.springframework.stereotype.Service;
 

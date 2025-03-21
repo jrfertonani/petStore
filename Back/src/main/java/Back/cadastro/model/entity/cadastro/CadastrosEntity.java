@@ -1,15 +1,14 @@
-package Back.model.entity.cadastro;
+package Back.cadastro.model.entity.cadastro;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
 
-import java.time.LocalDate;
 @Entity
-@Table(name = "tab_animais")
+@Table(name = "tab_cadastro")
 @Data
-public class AnimaisEntity {
+public class CadastrosEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,11 +18,10 @@ public class AnimaisEntity {
     @Column(length = 50, nullable = false)
     private String nome;
 
-    private LocalDate aniversario;
+    @Embedded
+    private Perfil perfil;
+    @Embedded
+    private Enderecos endereco;
 
-    @Enumerated(EnumType.STRING)
-    private AnimalEspecie especie;
 
-    @Column(name = "cad_tutor")
-    private Integer tutor;
 }

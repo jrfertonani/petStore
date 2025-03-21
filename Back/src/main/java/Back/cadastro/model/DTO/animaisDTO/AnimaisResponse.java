@@ -1,4 +1,4 @@
-package Back.model.DTO.animaisDTO;
+package Back.cadastro.model.DTO.animaisDTO;
 
 import lombok.Data;
 
