@@ -1,6 +1,8 @@
 package Back.cadastro.controller;
 
+import Back.cadastro.model.entity.cadastro.AnimalEntity;
 import Back.cadastro.model.entity.cadastro.ProdutoServico;
+import Back.cadastro.repository.AnimaisRepository;
 import Back.cadastro.repository.ProdutosServicosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
