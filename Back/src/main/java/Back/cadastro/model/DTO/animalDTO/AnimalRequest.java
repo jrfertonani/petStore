@@ -1,4 +1,4 @@
-package Back.cadastro.model.DTO.animaisDTO;
+package Back.cadastro.model.DTO.animalDTO;
 
 import Back.cadastro.model.entity.cadastro.AnimalEspecie;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class AnimaisRequest{
+public class AnimalRequest {
 
     private String nome;
     private LocalDate aniversario;

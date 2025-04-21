@@ -1,4 +1,4 @@
-package Back.cadastro.model.DTO.cadastroDTO;
+package Back.cadastro.model.DTO.clienteDTO;
 
 import lombok.Data;
 

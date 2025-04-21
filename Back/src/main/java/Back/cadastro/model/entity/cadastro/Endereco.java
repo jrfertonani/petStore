@@ -2,14 +2,16 @@ package Back.cadastro.model.entity.cadastro;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Embeddable
-public class Enderecos {
+@Getter     @Setter
+public class Endereco {
 
     @Column(name = "logra", length = 50)
     private String logradouro;
-    @Column(name = "nr", length = 6)
+    @Column(name = "numero", length = 6)
     private String numero;
 
 }

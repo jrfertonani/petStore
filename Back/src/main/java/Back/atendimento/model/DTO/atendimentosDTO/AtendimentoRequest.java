@@ -7,7 +7,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class AtendimentosRequest {
+public class AtendimentoRequest {
 
     private String descricao;
     private LocalDate date;

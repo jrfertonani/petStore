@@ -5,14 +5,17 @@ import Back.atendimento.model.AtendimentoTipo;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
+import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Entity
 @Table(name = "tab_atendimento")
 @Data
-public class AtendimentosEntity {
+@Getter     @Setter
+public class AtendimentoEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,6 +24,7 @@ public class AtendimentosEntity {
 
     private String descricao;
     private LocalDate date;
+    private LocalTime hora;
     private Double valor;
     private boolean emergencia;
 
@@ -31,10 +35,17 @@ public class AtendimentosEntity {
     private AtendimentoStatus status;
 
     @Column(name = "pet_id")
-    private Integer animais;
+    private Integer animal;
     @Column(name = "prod_serv_id")
-    private Integer produtosServico;
+    private Integer produtoServico;
     @Column(name = "cad_id")
     private Integer cadastros;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }
